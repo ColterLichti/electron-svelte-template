@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Svelte Electron Template</title>
+
+	<!-- Set favicon -->
+	<link rel='icon' type='image/png' href='./favicon.png'>
+
+	<!-- Setup CSS reset before any other styles are applied -->
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+	</style>
+
+	<!-- Place any third-party style sheets here (EG. Bootstrap, Bulma, etc.) -->
+
+
+	<!-- Bundle stylesheet should come last so components can override styles -->
+	<link rel='stylesheet' href='./build/svelte.css'>
+
+	<!-- Script tag must be type module to support esm modules produced by code splitting -->
+	<!-- Bundle name also becomes based on input file ie. "svelte.js" instead of "bundle.js" -->
+	<script defer type="module" src='./build/svelte.js'></script>
+</head>
+
+<body>
+</body>
+
+</html>
